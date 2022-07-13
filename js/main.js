@@ -4,7 +4,7 @@ $(document).ready(function(){
 
   $("#submitBtn").click(function(){        
     audio.play();
-    setTimeout(window.location.href('https://tudum.com'), 3000);
+    setTimeout(window.location.replace('https://tudum.com'), 3000);
   });
 
 });
